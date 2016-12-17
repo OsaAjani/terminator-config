@@ -1,0 +1,40 @@
+[global_config]
+  always_on_top = True
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  sticky = True
+  tab_position = bottom
+  title_inactive_bg_color = "#d7d7d7"
+  title_inactive_fg_color = "#d7d7d7"
+  title_receive_bg_color = "#d7d7d7"
+  title_receive_fg_color = "#d7d7d7"
+  title_transmit_bg_color = "#d7d7d7"
+  title_transmit_fg_color = "#d7d7d7"
+[keybindings]
+  close_term = <Primary><Shift>BackSpace
+  close_window = <Primary><Shift>q
+  go_down = <Primary>Down
+  go_left = <Primary>Left
+  go_right = <Primary>Right
+  go_up = <Primary>Up
+  hide_window = F12
+  split_horiz = <Primary>h
+  split_vert = <Primary>v
+[layouts]
+  [[default]]
+    [[[child0]]]
+      order = 0
+      parent = ""
+      position = 0:24
+      size = 1920, 1080
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#2b3e50"
+    background_image = None
+    copy_on_selection = True
+    font = Monospace 12
+    foreground_color = "#ffffff"
+    palette = "#2e3d51:#b9362b:#3bb15a:#ec9f14:#3e7dbb:#8d35b0:#34a284:#bec3c7:#2c3b4d:#df483c:#36a252:#ebc80a:#4b92db:#964ab6:#3ebe99:#ecf0f1"
+    show_titlebar = False
+    use_system_font = False
