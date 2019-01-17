@@ -1,4 +1,4 @@
-# Config terminator flat#
+# Config terminator flat
 Config for terminator.
 
 **List of configs :**
