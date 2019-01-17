@@ -1,4 +1,4 @@
-#Config terminator flat
+# Config terminator flat#
 Config for terminator.
 
 **List of configs :**
@@ -8,5 +8,5 @@ Ctrl + v to vertical split
 Auto copy on select
 Infinite scroll
 
-##How to use
+## How to use
 Copy content of the repo ```.config``` directory to ```$HOME/.config/```
